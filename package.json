@@ -1,5 +1,5 @@
 {
-  "name": "nextjs-playground",
+  "name": "shadcn-v4-setup",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -66,13 +66,19 @@
     "zod": "^3.24.2"
   },
   "devDependencies": {
+    "@eslint/eslintrc": "^3.3.0",
+    "@ianvs/prettier-plugin-sort-imports": "^4.4.1",
+    "@next/eslint-plugin-next": "^15.2.2",
     "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
-    "eslint": "^8.50.0",
-    "eslint-config-next": "15.2.1",
+    "eslint": "^9.22.0",
+    "eslint-config-next": "15.2.2",
     "eslint-config-prettier": "^10.1.1",
+    "eslint-plugin-boundaries": "^5.0.1",
+    "eslint-plugin-react": "^7.37.4",
+    "eslint-plugin-react-hooks": "^5.2.0",
     "husky": "^8.0.0",
     "lint-staged": "^15.4.3",
     "prettier": "^3.5.3",

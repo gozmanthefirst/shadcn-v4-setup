@@ -1,13 +1,12 @@
-// External Imports
 import type { Metadata } from "next";
 
-// Local Imports
 import { geistSans } from "@/styles/fonts";
+
 import "@/styles/globals.css";
 
 export const metadata: Metadata = {
-  title: "Next.js Playground",
-  description: "A playground for Next.js",
+  title: "ShadCN v4 Setup",
+  description: "ShadCN v4 Setup",
 };
 
 const RootLayout = ({
